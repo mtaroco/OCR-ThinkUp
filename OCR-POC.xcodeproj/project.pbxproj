@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342F37212084EE8700AF6F7D /* ContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F37202084EE8700AF6F7D /* ContractViewController.swift */; };
+		342F372C2085164A00AF6F7D /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F37262085164A00AF6F7D /* CGPoint+Extensions.swift */; };
+		342F372D2085164A00AF6F7D /* SignatureBezierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F37272085164A00AF6F7D /* SignatureBezierProvider.swift */; };
+		342F372E2085164A00AF6F7D /* SignatureDrawingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F37282085164A00AF6F7D /* SignatureDrawingModel.swift */; };
+		342F372F2085164A00AF6F7D /* SignatureDrawingModelAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F37292085164A00AF6F7D /* SignatureDrawingModelAsync.swift */; };
+		342F37302085164A00AF6F7D /* UIBezierPath+WeightedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F372A2085164A00AF6F7D /* UIBezierPath+WeightedPoint.swift */; };
+		342F37312085164A00AF6F7D /* SignatureDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F372B2085164A00AF6F7D /* SignatureDrawingViewController.swift */; };
+		342F3733208516D300AF6F7D /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F3732208516D300AF6F7D /* SignatureViewController.swift */; };
+		346E53DC2073AF3A00A935EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53DB2073AF3A00A935EB /* AppDelegate.swift */; };
+		346E53DE2073AF3A00A935EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53DD2073AF3A00A935EB /* ViewController.swift */; };
+		346E53E12073AF3A00A935EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346E53DF2073AF3A00A935EB /* Main.storyboard */; };
+		346E53E32073AF3A00A935EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346E53E22073AF3A00A935EB /* Assets.xcassets */; };
+		346E53E62073AF3A00A935EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346E53E42073AF3A00A935EB /* LaunchScreen.storyboard */; };
+		346E53EE2073B63700A935EB /* OCRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53ED2073B63700A935EB /* OCRViewController.swift */; };
+		346E53F02073B8B700A935EB /* OCRAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53EF2073B8B700A935EB /* OCRAPI.swift */; };
+		346E53F92073CD2800A935EB /* TULoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53F32073CD2700A935EB /* TULoadingView.swift */; };
+		346E53FA2073CD2800A935EB /* TULoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346E53F42073CD2700A935EB /* TULoadingView.xib */; };
+		346E53FB2073CD2800A935EB /* TUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53F52073CD2700A935EB /* TUView.swift */; };
+		346E53FC2073CD2800A935EB /* UIView+Creations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53F72073CD2800A935EB /* UIView+Creations.swift */; };
+		346E53FD2073CD2800A935EB /* UIView+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53F82073CD2800A935EB /* UIView+SnapKit.swift */; };
+		346E53FF2073CDE500A935EB /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E53FE2073CDE500A935EB /* NSObject+ClassName.swift */; };
+		346E54012073D05A00A935EB /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E54002073D05A00A935EB /* UIImage+Extension.swift */; };
+		346E54032073D2A300A935EB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E54022073D2A300A935EB /* UIColor+Extension.swift */; };
+		346E54062073F65F00A935EB /* OCRResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346E54052073F65F00A935EB /* OCRResult.swift */; };
+		A083D690A75D16D370F26BBB /* Pods_OCR_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A206F06DD19F83AB2BCD4B37 /* Pods_OCR_POC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		342F37202084EE8700AF6F7D /* ContractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractViewController.swift; sourceTree = "<group>"; };
+		342F37262085164A00AF6F7D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		342F37272085164A00AF6F7D /* SignatureBezierProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureBezierProvider.swift; sourceTree = "<group>"; };
+		342F37282085164A00AF6F7D /* SignatureDrawingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModel.swift; sourceTree = "<group>"; };
+		342F37292085164A00AF6F7D /* SignatureDrawingModelAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingModelAsync.swift; sourceTree = "<group>"; };
+		342F372A2085164A00AF6F7D /* UIBezierPath+WeightedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+WeightedPoint.swift"; sourceTree = "<group>"; };
+		342F372B2085164A00AF6F7D /* SignatureDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureDrawingViewController.swift; sourceTree = "<group>"; };
+		342F3732208516D300AF6F7D /* SignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureViewController.swift; sourceTree = "<group>"; };
+		346E53D82073AF3A00A935EB /* OCR-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OCR-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		346E53DB2073AF3A00A935EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		346E53DD2073AF3A00A935EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		346E53E02073AF3A00A935EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		346E53E22073AF3A00A935EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		346E53E52073AF3A00A935EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		346E53E72073AF3A00A935EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346E53ED2073B63700A935EB /* OCRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRViewController.swift; sourceTree = "<group>"; };
+		346E53EF2073B8B700A935EB /* OCRAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRAPI.swift; sourceTree = "<group>"; };
+		346E53F32073CD2700A935EB /* TULoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TULoadingView.swift; sourceTree = "<group>"; };
+		346E53F42073CD2700A935EB /* TULoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TULoadingView.xib; sourceTree = "<group>"; };
+		346E53F52073CD2700A935EB /* TUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUView.swift; sourceTree = "<group>"; };
+		346E53F72073CD2800A935EB /* UIView+Creations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Creations.swift"; sourceTree = "<group>"; };
+		346E53F82073CD2800A935EB /* UIView+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SnapKit.swift"; sourceTree = "<group>"; };
+		346E53FE2073CDE500A935EB /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		346E54002073D05A00A935EB /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		346E54022073D2A300A935EB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		346E54052073F65F00A935EB /* OCRResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRResult.swift; sourceTree = "<group>"; };
+		7EF51DA0D86FDE1EB782D5E1 /* Pods-OCR-POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-POC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCR-POC/Pods-OCR-POC.debug.xcconfig"; sourceTree = "<group>"; };
+		A206F06DD19F83AB2BCD4B37 /* Pods_OCR_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF18BBFCCE507B156A7D276 /* Pods-OCR-POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR-POC.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCR-POC/Pods-OCR-POC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346E53D52073AF3A00A935EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A083D690A75D16D370F26BBB /* Pods_OCR_POC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342F37242085164A00AF6F7D /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				342F37252085164A00AF6F7D /* Internal */,
+				342F372B2085164A00AF6F7D /* SignatureDrawingViewController.swift */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		342F37252085164A00AF6F7D /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				342F37262085164A00AF6F7D /* CGPoint+Extensions.swift */,
+				342F37272085164A00AF6F7D /* SignatureBezierProvider.swift */,
+				342F37282085164A00AF6F7D /* SignatureDrawingModel.swift */,
+				342F37292085164A00AF6F7D /* SignatureDrawingModelAsync.swift */,
+				342F372A2085164A00AF6F7D /* UIBezierPath+WeightedPoint.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		346E53CF2073AF3900A935EB = {
+			isa = PBXGroup;
+			children = (
+				346E53DA2073AF3A00A935EB /* OCR-POC */,
+				346E53D92073AF3A00A935EB /* Products */,
+				917C90B3EA2DDA3278C5610F /* Pods */,
+				D44C8D637DD7872866CD78D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		346E53D92073AF3A00A935EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346E53D82073AF3A00A935EB /* OCR-POC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346E53DA2073AF3A00A935EB /* OCR-POC */ = {
+			isa = PBXGroup;
+			children = (
+				346E54042073F64C00A935EB /* Model */,
+				346E53F12073CD2700A935EB /* Custom Controls */,
+				346E53F62073CD2800A935EB /* Extensions */,
+				346E53DB2073AF3A00A935EB /* AppDelegate.swift */,
+				346E53DD2073AF3A00A935EB /* ViewController.swift */,
+				346E53ED2073B63700A935EB /* OCRViewController.swift */,
+				342F37202084EE8700AF6F7D /* ContractViewController.swift */,
+				342F3732208516D300AF6F7D /* SignatureViewController.swift */,
+				346E53EF2073B8B700A935EB /* OCRAPI.swift */,
+				346E53DF2073AF3A00A935EB /* Main.storyboard */,
+				346E53E22073AF3A00A935EB /* Assets.xcassets */,
+				346E53E42073AF3A00A935EB /* LaunchScreen.storyboard */,
+				346E53E72073AF3A00A935EB /* Info.plist */,
+			);
+			path = "OCR-POC";
+			sourceTree = "<group>";
+		};
+		346E53F12073CD2700A935EB /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				342F37242085164A00AF6F7D /* Signature */,
+				346E53F22073CD2700A935EB /* Views */,
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		346E53F22073CD2700A935EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				346E53F32073CD2700A935EB /* TULoadingView.swift */,
+				346E53F42073CD2700A935EB /* TULoadingView.xib */,
+				346E53F52073CD2700A935EB /* TUView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		346E53F62073CD2800A935EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				346E53FE2073CDE500A935EB /* NSObject+ClassName.swift */,
+				346E53F72073CD2800A935EB /* UIView+Creations.swift */,
+				346E53F82073CD2800A935EB /* UIView+SnapKit.swift */,
+				346E54002073D05A00A935EB /* UIImage+Extension.swift */,
+				346E54022073D2A300A935EB /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		346E54042073F64C00A935EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				346E54052073F65F00A935EB /* OCRResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		917C90B3EA2DDA3278C5610F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EF51DA0D86FDE1EB782D5E1 /* Pods-OCR-POC.debug.xcconfig */,
+				AEF18BBFCCE507B156A7D276 /* Pods-OCR-POC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D44C8D637DD7872866CD78D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A206F06DD19F83AB2BCD4B37 /* Pods_OCR_POC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346E53D72073AF3A00A935EB /* OCR-POC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346E53EA2073AF3A00A935EB /* Build configuration list for PBXNativeTarget "OCR-POC" */;
+			buildPhases = (
+				39B7D0A2BDA9B044709A6CD8 /* [CP] Check Pods Manifest.lock */,
+				346E53D42073AF3A00A935EB /* Sources */,
+				346E53D52073AF3A00A935EB /* Frameworks */,
+				346E53D62073AF3A00A935EB /* Resources */,
+				0250277BB5F97EC158737F5F /* [CP] Embed Pods Frameworks */,
+				6EE6D102A08BA3B900BA5206 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OCR-POC";
+			productName = "OCR-POC";
+			productReference = 346E53D82073AF3A00A935EB /* OCR-POC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346E53D02073AF3900A935EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ThinkUp;
+				TargetAttributes = {
+					346E53D72073AF3A00A935EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 346E53D32073AF3900A935EB /* Build configuration list for PBXProject "OCR-POC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346E53CF2073AF3900A935EB;
+			productRefGroup = 346E53D92073AF3A00A935EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346E53D72073AF3A00A935EB /* OCR-POC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346E53D62073AF3A00A935EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346E53FA2073CD2800A935EB /* TULoadingView.xib in Resources */,
+				346E53E62073AF3A00A935EB /* LaunchScreen.storyboard in Resources */,
+				346E53E32073AF3A00A935EB /* Assets.xcassets in Resources */,
+				346E53E12073AF3A00A935EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0250277BB5F97EC158737F5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCR-POC/Pods-OCR-POC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCR-POC/Pods-OCR-POC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B7D0A2BDA9B044709A6CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR-POC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE6D102A08BA3B900BA5206 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCR-POC/Pods-OCR-POC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346E53D42073AF3A00A935EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342F37312085164A00AF6F7D /* SignatureDrawingViewController.swift in Sources */,
+				342F3733208516D300AF6F7D /* SignatureViewController.swift in Sources */,
+				342F372C2085164A00AF6F7D /* CGPoint+Extensions.swift in Sources */,
+				346E53F92073CD2800A935EB /* TULoadingView.swift in Sources */,
+				346E53FB2073CD2800A935EB /* TUView.swift in Sources */,
+				346E53FC2073CD2800A935EB /* UIView+Creations.swift in Sources */,
+				346E54032073D2A300A935EB /* UIColor+Extension.swift in Sources */,
+				342F372E2085164A00AF6F7D /* SignatureDrawingModel.swift in Sources */,
+				342F37302085164A00AF6F7D /* UIBezierPath+WeightedPoint.swift in Sources */,
+				346E53DE2073AF3A00A935EB /* ViewController.swift in Sources */,
+				342F372D2085164A00AF6F7D /* SignatureBezierProvider.swift in Sources */,
+				342F372F2085164A00AF6F7D /* SignatureDrawingModelAsync.swift in Sources */,
+				342F37212084EE8700AF6F7D /* ContractViewController.swift in Sources */,
+				346E53F02073B8B700A935EB /* OCRAPI.swift in Sources */,
+				346E53FD2073CD2800A935EB /* UIView+SnapKit.swift in Sources */,
+				346E53DC2073AF3A00A935EB /* AppDelegate.swift in Sources */,
+				346E54012073D05A00A935EB /* UIImage+Extension.swift in Sources */,
+				346E54062073F65F00A935EB /* OCRResult.swift in Sources */,
+				346E53FF2073CDE500A935EB /* NSObject+ClassName.swift in Sources */,
+				346E53EE2073B63700A935EB /* OCRViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		346E53DF2073AF3A00A935EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346E53E02073AF3A00A935EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		346E53E42073AF3A00A935EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				346E53E52073AF3A00A935EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		346E53E82073AF3A00A935EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		346E53E92073AF3A00A935EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346E53EB2073AF3A00A935EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF51DA0D86FDE1EB782D5E1 /* Pods-OCR-POC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJPG396NK;
+				INFOPLIST_FILE = "OCR-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkup.OCR-POC-ThinkUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		346E53EC2073AF3A00A935EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEF18BBFCCE507B156A7D276 /* Pods-OCR-POC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9UJPG396NK;
+				INFOPLIST_FILE = "OCR-POC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinkup.OCR-POC-ThinkUp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346E53D32073AF3900A935EB /* Build configuration list for PBXProject "OCR-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346E53E82073AF3A00A935EB /* Debug */,
+				346E53E92073AF3A00A935EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346E53EA2073AF3A00A935EB /* Build configuration list for PBXNativeTarget "OCR-POC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346E53EB2073AF3A00A935EB /* Debug */,
+				346E53EC2073AF3A00A935EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346E53D02073AF3900A935EB /* Project object */;
+}
